@@ -19,3 +19,12 @@ $('.navbar a, .btn').on('click', function (e) {
     );
   }
 });
+
+const links = document.getElementsByTagName('a');
+const linkArr = [...links];
+
+linkArr.forEach(function(link) {
+  link.addEventListener('click', function() {
+    document.querySelector('.navbar').classList.remove('navbar-active');
+  });
+});
