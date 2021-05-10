@@ -114,7 +114,7 @@ body {
         padding: 1rem; }
         #nav .container .navbar li ul {
           display: none; }
-        #nav .container .navbar li:hover ul, #nav .container .navbar li:active ul {
+        #nav .container .navbar li:hover ul, #nav .container .navbar li:focus ul, #nav .container .navbar li:active ul {
           display: block;
           position: absolute;
           width: 150px;
