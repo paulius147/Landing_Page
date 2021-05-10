@@ -299,7 +299,7 @@ body {
     grid-gap: 2rem; }
     #blog .container .blog-container .blog-content .col {
       border-radius: 10px;
-      height: 350px;
+/*       height: 350px; */
       display: flex;
       flex-direction: column; }
       #blog .container .blog-container .blog-content .col .blog-title {
