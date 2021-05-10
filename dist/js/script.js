@@ -13,7 +13,7 @@ $('.navbar a, .btn').on('click', function (e) {
 
     $('html, body').animate(
       {
-        scrollTop: $(hash).offset().top - 20,
+        scrollTop: $(hash).offset().top - 65,
       },
       800
     );
