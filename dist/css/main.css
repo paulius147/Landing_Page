@@ -421,8 +421,8 @@ body {
   /* SECTION: BLOG */
   #blog .container .blog-container .blog-content {
     grid-template-columns: 1fr; }
-    #blog .container .blog-container .blog-content .col {
-      height: 100%; }
+/*     #blog .container .blog-container .blog-content .col { */
+/*       height: 100%; } */
     #blog .container .blog-container .blog-content .col1 h2 {
       text-align: center; }
   /* SECTION: NAV */
